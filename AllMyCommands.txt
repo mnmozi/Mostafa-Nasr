@@ -1,0 +1,32 @@
+$ cd '/c/Users/mnmos/Desktop/Mostafa Nasr'   //open my file 
+
+
+$ git init   // initialize a Git Repository 
+$ git add First.txt  //add the First file to the staging area 
+$ git add Second.txt  //add the Seond file to the staging area
+$ git add Third.txt  //add the Third file to the staging area
+$ git commit -m 'First,Second,Third' // commit the file i have
+
+$ git rm -- Second.txt // to delete the file from the staging area 
+$git reset 
+$git status
+$git checkout -- Second.txt   // to restore the file 
+
+
+$ git remote add main https://github.com/mnmozi/Mostafa-Nasr.git       //setting the server address where i want to push
+$ git remote -v                                                          //just checking my "main"
+$ git push main master                                                 //push the branch master to the "main"
+
+$ git branch -av // to know my branches 
+$ git branch ReadMe  //create ReadMe branch
+
+$ git branch -av // know the branches
+$ git checkout ReadMe 
+$ git add README.md // add the README to the 
+$ git commit -m 'MD' // commit the file i have 
+$ git checkout master // switch the head to the master 	
+$ git branch -av  // see my branches to make sure that the head on the master 
+$ git merge ReadMe // merge the branch readme with the master 
+$ git push main master // push the new master 
+
+
